@@ -7,7 +7,7 @@ package paqueteuno;
 
 
 public class Pelicula {
-    private int version;
+    int version;
     
     void establecerVersion(int v){
         version = v;

@@ -22,11 +22,16 @@ public class Ejecutable02 {
         h3.establecerNombre("Manuel IM");
         
         System.out.printf("%s\n", h1.obtenerNombre());
+        System.out.printf("%s\n", h2.obtenerNombre());
+        System.out.printf("%s\n", h3.obtenerNombre());
         
         h1.establecerNombre("Hospital Vaca Ortíz");
+        h2.establecerNombre("Hospital Militar");
+        h3.establecerNombre("Hospital Manuel IM");
         
         System.out.printf("%s\n", h1.obtenerNombre());
-        
+        System.out.printf("%s\n", h2.obtenerNombre());
+        System.out.printf("%s\n", h3.obtenerNombre());
         
     }
 }
